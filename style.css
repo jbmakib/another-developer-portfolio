@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+section {
+    margin: 0;
+}
+
+.home {
+    height: 100vh;
+    background-image: linear-gradient(60deg, cyan, rgb(0, 180, 180), rgb(0, 180, 180), cyan);
+}
+
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+.home .max-width {
+    color: black;
+}
+
+.home .max-width .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.home .max-width .nav div.logo {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.home .max-width .nav div.nav-link ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.home .max-width .nav div.nav-link ul li a {
+    text-decoration: none;
+    padding-left: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+
+
+/* nav done */
+
+.home .max-width .half-width {
+    width: 50%;
+}
+
+.home .max-width .half-width h1 {
+    font-size: 50px;
+}
+
+.home .max-width .half-width h3 {
+    font-size: 19px;
+}
+
+.home .max-width .half-width h1 span {
+    color: #FFF;
+}
+
+.home .max-width .half-width p {
+    padding-right: 20px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.home .max-width .half-width a button {
+    background-image: linear-gradient(45deg, #F78668, #FA6E5A);
+    padding: 20px 40px;
+    display: inline-block;
+    border-radius: 3px 20px 3px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border: none;
+    cursor: pointer;
+}
+
+.home .max-width .half-width a button:hover {
+    box-shadow: 2px -2px #F97860, -2px 2px #F97860;
+    background: none;
+}
+
+.home .max-width .half-width img {
+    width: 85%;
+    padding-left: 90px;
+}
+
+.home .max-width.flexible-content {
+    display: flex;
+}
+
+
+/* Home section done */
+
+
+/* About Section Starts */
+
+.about {
+    height: 100vh;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.about .max-width .flexible-content {
+    display: flex;
+}
+
+.about .max-width .half-width {
+    width: 50%;
+}
+
+.about .max-width .half-width img {
+    width: 85%;
+}
+
+.about .max-width .title h1 {
+    text-align: center;
+    margin: 0;
+    padding-top: 35px;
+    font-size: 30px;
+}
+
+.about .max-width .flexible-content .half-width h1 {
+    font-size: 40px;
+}
+
+.about .max-width .flexible-content .half-width h2 {
+    font-size: 30px;
+}
+
+.about .max-width .flexible-content .half-width h2 span {
+    color: orange;
+}
+
+.about .max-width .flexible-content .half-width p {
+    font-size: 18px;
+    text-align: justify;
+    padding-right: 60px;
+}
+
+.about .max-width .flexible-content .half-width a button {
+    background-image: linear-gradient(45deg, #F78668, #FA6E5A);
+    padding: 20px 40px;
+    display: inline-block;
+    border-radius: 20px 3px 20px 3px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border: none;
+    cursor: pointer;
+}
+
+.about .max-width .flexible-content .half-width a button:hover {
+    box-shadow: 2px -2px #F97860, -2px 2px #F97860;
+    background: none;
+    color: black;
+}
+
+
+/* about section done */
+
+
+/* services section starts */
+
+.services {
+    height: 100vh;
+    background-image: linear-gradient(60deg, #ffaa92, #ff6251, #ff6251, #ffaa92);
+}
+
+.services .max-width .title h1 {
+    text-align: center;
+    margin: 0;
+    padding-top: 35px;
+    color: white;
+    font-size: 30px;
+}
+
+.services .max-width .title h2 {
+    text-align: center;
+    margin: 0;
+    padding-top: 50px;
+    color: white;
+    font-size: 40px;
+}
+
+.services .max-width .flexible-content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+
+.services .max-width .flexible-content .box {
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.services .max-width .flexible-content .box h2 {
+    font-weight: 900;
+    font-size: 30px;
+    margin: 0;
+}
+
+.services .max-width .flexible-content .box p {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+
+/* services section done */
+
+
+/* contact section start */
+
+.contact {
+    height: 100vh;
+}
+
+.contact .max-width .title h1 {
+    text-align: center;
+    margin: 0;
+    padding-top: 35px;
+    font-size: 30px;
+}
+
+.contact .max-width .flexible-content {
+    display: flex;
+    padding-top: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact .max-width h3 {
+    margin: 12px 0;
+}
+
+.contact .max-width .flexible-content div input#text,
+.contact .max-width .flexible-content div input#email {
+    width: 200px;
+    height: 50px;
+    padding: 0 20px;
+    border-radius: 50px;
+    outline: none;
+    border: 2px solid cyan;
+}
+
+.contact .max-width .flexible-content div textarea#message {
+    width: 350px;
+    height: 90px;
+    padding: 20px 20px 0;
+    outline: none;
+    border-radius: 50px;
+    border: 2px solid cyan;
+    resize: none;
+}
+
+.contact .max-width .flexible-content div.long-line {
+    width: 5px;
+    height: 400px;
+    background-color: cyan;
+}
+
+.contact .max-width .flexible-content input#submit {
+    /* background-image: linear-gradient(45deg, #F78668, #FA6E5A); */
+    background-color: cyan;
+    padding: 15px 25px;
+    display: block;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 12px;
+    box-sizing: border-box;
+    border: none;
+    cursor: pointer;
+}
+
+.contact .max-width .flexible-content p {
+    width: 450px;
+}
+
+.contact .max-width .flexible-content .icons .row {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.contact .max-width .flexible-content .icons .row i {
+    color: cyan;
+    font-size: 30px;
+    display: inline-block;
+    text-align: center;
+}
+
+.contact .max-width .flexible-content .icons .row .info {
+    margin-left: 20px;
+    font-size: 1.17em;
+}
+
+.footer {
+    background-color: #d8d8d8;
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer .block {
+    display: block;
+    text-align: center;
+    padding-top: 16px;
+}
+
+.footer .block .flex {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 550px;
+}
+
+.footer .block .flex a:nth-child(odd) {
+    font-size: 45px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #00B4B4;
+}
+
+.footer .block .flex a:nth-child(even) {
+    font-size: 45px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #FF6251;
+}
