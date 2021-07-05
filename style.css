@@ -10,7 +10,7 @@ section {
 }
 
 .home {
-    height: 100vh;
+    height: 625px;
     background-image: linear-gradient(60deg, cyan, rgb(0, 180, 180), rgb(0, 180, 180), cyan);
 }
 
